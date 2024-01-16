@@ -74,6 +74,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+      - name: Run yarn static
+        run: yarn static
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -90,3 +92,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+      - name: Run yarn deploy
+        run: yarn deploy
