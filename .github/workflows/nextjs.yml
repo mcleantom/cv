@@ -80,17 +80,5 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./out
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
-      - name: Run yarn deploy
-        run: yarn deploy
+      - name: deploy
+        run: ${{ steps.detect-package-manager.outputs.runner }} next export
