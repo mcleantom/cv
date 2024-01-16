@@ -99,6 +99,16 @@ export const RESUME_DATA = {
         label: "GitHub",
         href: "https://github.com/mcleantom/MNIST-GAN"
       }
+    },
+    {
+      title: "MNIST-Diffusion",
+      techStack: ["Python", "PyTorch"],
+      description: "Diffusion Model for generating handwritten digits",
+      logo: ConsultlyLogo,
+      link: {
+        label: "GitHub",
+        href: "https://github.com/mcleantom/MNIST-Diffusion"
+      }
     }
   ],
 } as const;
