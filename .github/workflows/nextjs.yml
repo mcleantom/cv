@@ -81,4 +81,4 @@ jobs:
         with:
           path: ./out
       - name: deploy
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
+        run: ${{ steps.detect-package-manager.outputs.runner }} deploy
