@@ -64,7 +64,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2024",
       description:
-        "Created a full stack web application for route optimization of container ships.",
+        "Led the development of a full stack web application for route optimization of container ships. The backend was build with FastAPI, with the routing algorithm written in C++. The application is deployed to AWS using automated CI/CD pipelines with Jenkins, Docker and Terraform.",
     },
   ],
   skills: [
