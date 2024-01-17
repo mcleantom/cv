@@ -96,8 +96,8 @@ export const RESUME_DATA = {
       description: "Ship route optimization platform",
       logo: ConsultlyLogo,
       link: {
-        label: "bartechnologies.uk",
-        href: "https://www.bartechnologies.uk/",
+        label: "https://www.bartechnologies.uk/project/shipseat/",
+        href: "https://www.bartechnologies.uk/project/shipseat/",
       },
     },
     {
