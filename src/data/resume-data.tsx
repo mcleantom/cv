@@ -58,14 +58,24 @@ export const RESUME_DATA = {
     {
       company: "BAR Technologies",
       link: "https://www.bartechnologies.uk/",
-      badges: [],
+      badges: ["Python", "C++", "JavaScript", "AWS", "Docker", "Terraform", "Jenkins"],
       title: "Simulation and Performance Engineer",
       logo: ParabolLogo,
       start: "2021",
       end: "2024",
       description:
-        "Led the development of a full stack web application for route optimization of container ships. The backend was build with FastAPI, with the routing algorithm written in C++. The application is deployed to AWS using automated CI/CD pipelines with Jenkins, Docker and Terraform.",
+        `Led the development of a full stack web application for route optimization of container ships. The backend was build with FastAPI, with the routing algorithm written in C++. The application is deployed to AWS using automated CI/CD pipelines with Jenkins, Docker and Terraform.`,
     },
+    {
+      company: "Seaspeed Marine Consulting",
+      link: "https://www.seaspeed.com/",
+      badges: ["Python", "Monte Carlo Simulation"],
+      title: "Naval Architect",
+      logo: ParabolLogo,
+      start: "2020",
+      end: "2021",
+      description: "Developed a Monte Carlo stochastic simulation tool for the fleet optimization of offshore wind farm support vessels. The tool was written in Python and used to optimize the fleet size and vessel types based on the distance offshore, size of wind farm and weather conditions.",
+    }
   ],
   skills: [
     "Python",
@@ -108,6 +118,16 @@ export const RESUME_DATA = {
       link: {
         label: "GitHub",
         href: "https://github.com/mcleantom/MNIST-Diffusion"
+      }
+    },
+    {
+      title: "PBLM",
+      techStack: ["Python", "PyTorch"],
+      description: "Physics Based Learning Methods",
+      logo: ConsultlyLogo,
+      link: {
+        label: "GitHub",
+        href: "https://github.com/mcleantom/PBLM_from_scratch"
       }
     }
   ],
