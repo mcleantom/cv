@@ -56,6 +56,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "INEOS Britannia",
+      link: "https://www.ineosbritannia.com/en/home.html",
+      badges: ["Python", "C++", "JavaScript", "Docker", "Azure", "ZMQ", "Unreal Engine"],
+      title: "Simulator Developer",
+      logo: ParabolLogo,
+      start: "2024",
+      end: "-",
+      description: "Develop the VR simulator for INEOS Britannia."
+    }
+    {
       company: "BAR Technologies",
       link: "https://www.bartechnologies.uk/",
       badges: ["Python", "C++", "JavaScript", "AWS", "Docker", "Terraform", "Jenkins"],
