@@ -64,7 +64,7 @@ export const RESUME_DATA = {
       start: "2024",
       end: "-",
       description: "Develop the VR simulator for INEOS Britannia."
-    }
+    },
     {
       company: "BAR Technologies",
       link: "https://www.bartechnologies.uk/",
