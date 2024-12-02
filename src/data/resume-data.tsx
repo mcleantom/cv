@@ -32,6 +32,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://mcleantom.github.io/cv/",
   contact: {
     email: "mcleantom97@gmail.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
