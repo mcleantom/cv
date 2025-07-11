@@ -56,13 +56,22 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "SigTech",
+      link: "https://www.sigtech.com/",
+      badges: ["Python", "LLMs", "RAG"],
+      logo: ParabolLogo,
+      start: "2025",
+      end: "-",
+      description: "Developing SigTech MAGIC (Multi-Agent Generative Investment Copilots), deploying custom AI agents for financial institutions. These AI agents automate high-value, non-creative, repetitive knowledge work in capital markets. Every AI agent is tailor-made: 1 of 1, trained via inductive learning from real-life case studies."
+    },
+    {
       company: "INEOS Britannia",
       link: "https://www.ineosbritannia.com/en/home.html",
       badges: ["Python", "C++", "JavaScript", "Docker", "Azure", "ZMQ", "Unreal Engine"],
       title: "Simulator Developer",
       logo: ParabolLogo,
       start: "2024",
-      end: "-",
+      end: "2025",
       description: "Develop the VR simulator for INEOS Britannia."
     },
     {
