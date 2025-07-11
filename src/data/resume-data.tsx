@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Full Stack Engineer and Naval Architect",
   summary:
     "Full Stack Engineer and Naval Architect with experience in harnessing technology and simulation to optimize ship designs.",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFtjhqeNWiQTA/profile-displayphoto-shrink_800_800/B4DZSPvmBYHkAk-/0/1737578415223?e=1750291200&v=beta&t=KtEoRZE_Oa6HA93r3C-soUqmNW8xKcfRfq6DmL__jig",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFtjhqeNWiQTA/profile-displayphoto-shrink_400_400/B4DZSPvmBYHkAo-/0/1737578415173?e=1757548800&v=beta&t=9AzhgAV0hw1n1JQ6Dox0kCpEFl64evNDv9dR-s6or9M",
   personalWebsiteUrl: "https://mcleantom.github.io/cv/",
   contact: {
     email: "mcleantom97@gmail.com",
