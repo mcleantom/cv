@@ -59,6 +59,7 @@ export const RESUME_DATA = {
       company: "SigTech",
       link: "https://www.sigtech.com/",
       badges: ["Python", "LLMs", "RAG"],
+      title: "AI/API Developer",
       logo: ParabolLogo,
       start: "2025",
       end: "-",
